@@ -1,6 +1,6 @@
 project('shared lib', 'c',
     default_options : ['cpp_std=c++23'])
-)
+
 inc = include_directories('.')
 libfib = library('libfib', 'libfib.c'
     include_directories: inc,
