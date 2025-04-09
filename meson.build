@@ -8,5 +8,5 @@ libfib = library('libfib', 'libfib.c',
 libfib_dep = declare_dependency(include_directories : inc,
   link_with : libfib)
 
-e = executable('prog', 'test.c', link_with : lib)
+e = executable('prog', 'test.c', link_with : libfib_dep)
 test('name of test', e)
