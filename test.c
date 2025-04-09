@@ -1,5 +1,6 @@
 #include <source.h>
 
 int main() {
-    f();
+    const auto result = fibonacci(10);
+    assert(result == 55);
 }
