@@ -9,3 +9,6 @@
 ## Testing
 - https://mesonbuild.com/Build-targets.html
 - https://mesonbuild.com/Unit-tests.html
+
+## Github Action
+- https://github.com/mesonbuild/meson/blob/master/docs/markdown/Continuous-Integration.md
