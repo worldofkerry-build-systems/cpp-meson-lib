@@ -29,7 +29,7 @@ jobs:
       - name: Configure Project
         run: meson setup builddir/
         env:
-          CC: g++
+          CXX: g++
       - name: Run Tests
         run: meson test -C builddir/ -v
       - name: Upload Test Log
