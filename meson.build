@@ -1,5 +1,5 @@
 project('my project', 'cpp',
-    default_options : ['cpp_std=c++23'])
+    default_options : ['cpp_std=c++2a'])
 
 inc = include_directories('.')
 
