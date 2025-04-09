@@ -1,4 +1,4 @@
-project('shared lib', 'c'
+project('shared lib', 'c',
     default_options : ['cpp_std=c++23'])
 )
 inc = include_directories('.')
