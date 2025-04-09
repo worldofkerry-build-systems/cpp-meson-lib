@@ -11,6 +11,6 @@ libfib = library('libfib',
 libfib_dep = declare_dependency(include_directories : inc,
   link_with : libfib)
 
-e = executable('prog', 'test/test.cpp', dependencies : [libfib_dep])
+e = executable('prog', 'tests/test.cpp', dependencies : [libfib_dep])
 
 test('name of test', e)
