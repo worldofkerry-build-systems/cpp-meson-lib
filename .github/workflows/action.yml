@@ -3,6 +3,9 @@ name: CI Meson
 on:
   push:
   pull_request:
+  schedule:
+    # Runs at 00:00 (UTC) every Monday
+    - cron: '0 0 * * 1'
 
 jobs:
   build:
