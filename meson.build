@@ -3,7 +3,8 @@ project('my project', 'cpp',
 
 inc = include_directories('.')
 
-libfib = library('libfib', 'libfib.c',
+libfib = library('libfib',
+    'libfib.cpp',
     include_directories: inc
 )
 
