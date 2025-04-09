@@ -1,5 +1,5 @@
 #include <assert.h>
-#include <source.h>
+#include <libfib.h>
 
 int main() {
     const auto result = fibonacci(10);
