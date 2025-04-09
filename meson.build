@@ -1,5 +1,5 @@
 project('shared lib', 'c')
-library('mylib', 'source.c')
+lib = library('mylib', 'source.c')
 
-e = executable('prog', 'test.c')
+e = executable('prog', 'test.c', link_with : lib)
 test('name of test', e)
