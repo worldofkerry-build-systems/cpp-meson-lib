@@ -5,10 +5,13 @@ on:
     paths:
       - "**.c"
       - "**.h"
+      - "**.h"
+      - "**.build"
   pull_request:
     paths:
       - "**.c"
       - "**.h"
+      - "**.build"
 
 jobs:
   build:
