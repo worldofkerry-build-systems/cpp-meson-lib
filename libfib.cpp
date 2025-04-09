@@ -1,4 +1,4 @@
-consteval unsigned long long fibonacci(unsigned n) {
+unsigned long long fibonacci(unsigned n) {
     if (n == 0) return 0;
     if (n == 1) return 1;
     
