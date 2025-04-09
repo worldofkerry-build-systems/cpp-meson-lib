@@ -1,3 +1,4 @@
+#include <assert.h>
 #include <source.h>
 
 int main() {
